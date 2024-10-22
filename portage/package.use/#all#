@@ -1,0 +1,500 @@
+net-wireless/wpa_supplicant  dbus fils hs2-0 mbo mesh qt5 readline ap -broadcom-sta -eap-sim -eapol -fasteap -macsec -p2p -privsep -smartcard -tdls tkip -uncommon-eap-types wep wps
+x11-drivers/nvidia-drivers  X modules static-libs strip tools wayland dist-kernel -kernel-open -modules-compress -modules-sign -persistenced -powerd
+games-misc/fortune-mod  pcre offensive
+media-gfx/imagemagick  X bzip2 cxx jpeg lcms openmp pango png svg tiff truetype xml zlib corefonts djvu fftw -fontconfig fpx graphviz -hardened hdri heif jbig jpeg2k jpegxl lqr lzma -opencl openexr -perl postscript -q8 -q32 raw -static-libs test webp wmf zip
+media-libs/libwebp  gif jpeg opengl png tiff -static-libs -swap-16bit-csp
+virtual/imagemagick-tools  jpeg png svg tiff -perl -postscript
+media-libs/imlib2  X bzip2 filters gif jpeg mp3 png shm svg text tiff webp zlib -apidoc -debug eps heif jpeg2k jpegxl lzma -packing raw -static-libs
+dev-libs/libzip  bzip2 ssl gnutls lzma -mbedtls -static-libs  tools zstd
+media-libs/libde265  sdl -debug dec265 enc265 tools
+media-libs/x265  10bit 12bit numa
+media-libs/gd  fontconfig jpeg png tiff truetype zlib avif heif -static-libs  webp xpm
+media-libs/libjxl  gdk-pixbuf gif jpeg png openexr
+media-libs/libwebp  gif jpeg opengl png tiff -static-libs -swap-16bit-csp
+media-sound/alsa-utils  libsamplerate ncurses nls -bat -doc ieee1394
+media-libs/openexr  -doc examples -large-stack  threads utils
+app-arch/cabextract  extras
+media-libs/libheif  aom threads x265 gdk-pixbuf -go rav1e svt-av1
+media-fonts/corefonts  X tahoma
+media-libs/libsdl2  X alsa dbus gles2 haptic joystick opengl pipewire pulseaudio sound udev video vulkan wayland -doc fcitx -gles1 -ibus jack -kms libsamplerate nas oss sndio -static-libs  xscreensaver
+app-text/poppler  boost cairo cxx introspection jpeg jpeg2k lcms nss png qt5 qt6 tiff utils -cjk curl -debug -doc gpgme  -verify-sig
+media-libs/libwmf  X -debug -doc expat
+media-libs/libavif  aom dav1d examples extras gdk-pixbuf rav1e svt-av1
+net-libs/libssh2  zlib gcrypt -mbedtls
+app-text/enchant  hunspell aspell nuspell  voikko
+media-sound/jack2  alsa classic dbus pam tools -doc -ieee1394 libsamplerate metadata opus -systemd
+media-sound/jack-example-tools  alsa readline jack-net jack-netsource opus sndfile zalsa
+media-gfx/graphviz  X cairo nls pdf qt5 svg devil -doc examples -gtk2 gts guile lasi -perl postscript python -ruby tcl webp
+media-libs/zita-resampler  tools
+media-libs/vulkan-loader  X wayland layers
+sys-libs/db  -cxx -doc -examples tcl
+dev-qt/qtnetwork  ssl -debug gssapi libproxy sctp
+dev-libs/dbus-c++  -doc ecore glib
+app-portage/eix  nls -debug -doc sqlite
+media-libs/opus   custom-modes -debug deep-plc -doc dred -hardened osce -static-libs
+media-libs/openal  alsa pipewire pulseaudio qt5 sdl -debug jack oss portaudio sndio
+dev-libs/efl  X eet elogind fontconfig gif gstreamer nls opengl pdf pulseaudio sdl sound svg system-lz4 tiff wayland avif bmp connman dds -debug -doc drm examples fbcon fribidi glib harfbuzz heif hyphen ibus ico jpeg2k jpegxl json physics pmaps postscript psd raw scim -systemd tga tgv -tslib -unwind v4l vnc webp xcf xim xpm xpresent -zeroconf
+media-fonts/dejavu  X fontforge
+sys-libs/libunwind  zlib -debug -debug-frame -doc libatomic lzma -static-libs
+net-libs/libssh  sftp zlib -debug -doc examples gcrypt gssapi -mbedtls pcap -server -static-libs
+media-libs/a52dec  djbfft oss
+media-libs/libdca  -debug oss
+media-gfx/exiv2  bmff nls png xmp -doc examples jpegxl  webready
+net-libs/libvncserver  24bpp filetransfer ipv6 jpeg png ssl threads zlib gnutls lzo sasl -systemd
+dev-libs/libverto  libev threads glib libevent
+dev-libs/libgit2  ssh threads -examples gssapi  -trace
+media-libs/gst-plugins-base  X alsa egl gles2 introspection nls ogg opengl orc pango vorbis wayland gbm ivorbis  theora
+media-libs/gst-plugins-bad  X bzip2 introspection nls orc udev wayland  vaapi vnc
+kde-frameworks/kfilemetadata  exif pdf taglib -debug -doc epub -ffmpeg mobi
+net-misc/connman  bluetooth ethernet networkmanager -nftables wifi -debug -doc examples iptables iwd l2tp -ofono openconnect openvpn pptp tools vpnc wireguard wispr
+media-libs/pcaudiolib  alsa pulseaudio oss
+media-sound/sox  alsa encode flac mad ogg openmp png pulseaudio amr ao id3tag ladspa magic opus oss sndfile sndio -static-libs twolame wavpack
+media-video/ffmpeg  X alsa bzip2 dav1d encode gnutls gpl iconv lcms mp3 network opengl pic postproc pulseaudio sdl svg threads truetype vorbis vulkan x264 xvid zlib -amf amr amrenc bluray bs2b cdio chromaprint -chromium codec2 cpudetection cuda -debug -doc fdk flite fontconfig -frei0r fribidi gcrypt -glslang gme gmp gsm -hardcoded-tables iec61883 -ieee1394 jack jpeg2k jpegxl kvazaar ladspa libaom libaribb24 libass libcaca libdrm libilbc libplacebo librtmp libsoxr libtesseract libv4l libxml2 lv2 lzma modplug nvenc openal opencl openh264 openssl opus oss qsv rav1e rubberband -samba shaderc snappy sndio -soc speex srt ssh -static-libs svt-av1  theora twolame v4l vaapi vdpau verify-sig vidstab vmaf vpx webp x265 -zeromq zimg zvbi -mmal
+dev-qt/qtmultimedia  X alsa -debug eglfs ffmpeg -gles2-only gstreamer openal opengl pulseaudio qml screencast  v4l vaapi vulkan wayland widgets
+media-video/vlc  X a52 alsa dbus dts dvbpsi dvd encode -ffmpeg flac gcrypt gui jpeg libnotify libsamplerate mad mp3 mpeg ncurses ogg png pulseaudio ssl svg truetype udev wayland x264 xml aom archive aribsub bidi bluray cddb chromaprint chromecast dav1d dc1394 -debug faad fdk fluidsynth fontconfig gme gstreamer -ieee1394 jack kate keyring libass libcaca libtar libtiger linsys -lirc live lua -macosx-notifications matroska modplug mtp musepack nfs omxil optimisememory opus projectm rdp -run-as-root samba sdl-image sftp shout sid skins soxr speex srt taglib  theora tremor twolame upnp v4l -vaapi -vdpau vnc vpx x265 -zeroconf zvbi
+media-libs/portaudio  alsa cxx -debug -doc jack oss -static-libs
+media-libs/zvbi  X nls -doc dvb v4l
+media-libs/rubberband  programs jni ladspa lv2 -static-libs  vamp
+dev-python/rdflib  examples sqlite
+net-libs/srt  gnutls
+media-libs/libbluray  fontconfig truetype xml aacs bdplus java utils
+media-libs/libass  fontconfig libunibreak  -verify-sig
+media-libs/libcaca  X ncurses opengl truetype -doc imlib slang -static-libs
+media-libs/leptonica  gif jpeg png tiff zlib jpeg2k -static-libs  utils webp
+media-libs/libplacebo  lcms opengl shaderc vulkan xxhash -glslang libdovi llvm-libunwind  -unwind
+app-text/tesseract  jpeg openmp png tiff -doc -float32 -static-libs -training webp
+app-i18n/fcitx  X autostart emoji enchant keyboard server wayland -doc presage -systemd
+media-libs/libv4l  jpeg qt5 qt6 utils bpf -doc dvb -tracer
+app-accessibility/flite  alsa pulseaudio oss  voices
+net-fs/samba  acl client cups pam regedit system-mitkrb5 -addc -ads -ceph -cluster -debug glusterfs -gpg -iprint json ldap llvm-libunwind -profiling-data -python -quota snapper spotlight -syslog -systemd -unwind winbind -zeroconf
+dev-qt/qtbase  X concurrent cups dbus gtk gui icu libinput libproxy mysql network nls opengl sql sqlite ssl udev vulkan wayland widgets xml -accessibility brotli eglfs evdev -gles2-only gssapi -journald -oci8 -odbc postgres -renderdoc sctp -syslog  tslib
+x11-libs/tslib  sdl evdev uinput
+dev-db/postgresql  icu lz4 nls pam readline server ssl xml zlib zstd -debug -doc kerberos ldap llvm -perl -python -static-libs -systemd tcl uuid
+net-nds/openldap  cleartext crypt minimal ssl syslog argon2 -autoca cxx -debug experimental gnutls -iodbc kerberos kinit -odbc overlays pbkdf2 -perl samba sasl sha2 -smbkrb5passwd -static-libs -systemd tcpd
+dev-libs/cyrus-sasl  gdbm pam ssl authdaemond berkdb kerberos ldapdb -mysql openldap postgres -sample sqlite srp -static-libs urandom
+media-libs/libmypaint  nls openmp gegl introspection
+media-libs/gegl  cairo lcms openmp pdf sdl svg tiff -debug ffmpeg introspection lensfun openexr raw sdl2  umfpack v4l vala webp
+media-gfx/gimp  alsa mng udev aalib -debug -doc -gnome heif jpeg2k jpegxl openexr postscript  -unwind vector-icons webp wmf xpm
+media-libs/babl  lcms introspection vala
+media-libs/aalib  X gpm slang
+dev-libs/appstream-glib  introspection fonts -gtk-doc stemmer
+sci-libs/metis  openmp double-precision examples int64
+virtual/lapack  eselect-ldso
+virtual/blas  eselect-ldso
+sci-libs/cholmod  lapack matrixops modify partition cuda
+sci-libs/lapack  -deprecated -doc eselect-ldso lapacke
+dev-util/nvidia-cuda-toolkit  -debugger examples nsight profiler rdma sanitizer vis-profiler
+sys-cluster/rdma-core  lttng neigh -python -static-libs -systemd -valgrind
+dev-util/lttng-ust  examples numa
+media-libs/tiff-compat  cxx jpeg zlib jbig lzma  -verify-sig webp zstd
+media-libs/freetype  X adobe-cff brotli bzip2 cleartype-hinting -debug -doc fontforge harfbuzz infinality png -static-libs svg utils
+media-libs/libao  alsa pulseaudio mmap nas sndio
+virtual/cblas  eselect-ldso
+media-gfx/inkscape  X cdr exif jpeg openmp readline spell dia graphicsmagick imagemagick inkjar postscript sourceview svg2  -visio wpg
+dev-python/pillow  jpeg lcms tiff truetype xcb zlib -debug examples imagequant jpeg2k  tk webp
+dev-lang/python  ensurepip gdbm ncurses -readline sqlite ssl bluetooth build -debug examples libedit pgo  tk -valgrind -verify-sig
+media-libs/libvpx  highbitdepth threads -doc postproc -static-libs
+net-libs/nodejs  icu snapshot ssl system-icu system-ssl corepack -debug -doc inspector npm -pax-kernel
+www-client/firefox  X clang dbus gmp-autoupdate jumbo-build pulseaudio system-av1 system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-webp telemetry wayland -debug -eme-free gnome-shell -hardened hwaccel jack libproxy lto openh264 pgo sndio system-png wifi
+media-video/libva-utils  X vainfo wayland examples putsurface
+media-libs/libpng  apng -static-libs
+app-arch/zip  bzip2 crypt natspec
+dev-libs/simdjson  all-impls  tools
+x11-base/xorg-server  elogind udev xorg -debug -minimal -selinux suid -systemd  -unwind xcsecurity xephyr xnest xvfb
+net-misc/socat  ipv6 readline ssl tcpd
+sys-fs/lvm2  readline udev lvm sanlock -selinux -static -static-libs -systemd -thin -valgrind
+media-fonts/noto-emoji  X icons
+net-misc/socat  ipv6 readline ssl tcpd
+sys-libs/liburing  examples -static-libs
+media-libs/taglib  -doc examples
+sys-libs/libcap-ng  python -static-libs
+sys-apps/bubblewrap  suid
+media-libs/libshout  speex -static-libs theora
+dev-debug/valgrind  mpi -verify-sig
+dev-cpp/gtest  -doc examples
+dev-libs/oniguruma  crnl-as-line-terminator -static-libs
+dev-libs/xerces-c  iconv icu curl -doc examples -static-libs  threads
+dev-perl/JSON-XS  examples
+dev-perl/Authen-SASL  -kerberos
+dev-perl/JSON  xs examples
+dev-perl/MailTools  examples
+net-libs/courier-authlib  gdbm pam berkdb -debug ldap -mysql postgres sqlite -static-libs
+media-libs/libmtp  crypt -doc examples -static-libs
+app-admin/sudo  nls pam secure-path sendmail ssl -gcrypt ldap offensive sasl -skey sssd -verify-sig
+dev-libs/libtommath  -doc examples -static-libs
+net-fs/libnfs  examples -static-libs utils
+dev-util/google-perftools  debug llvm-libunwind -minimal optimisememory -pagesize-16k -pagesize-32k -pagesize-64k -pagesize-128k pagesize-256k -static-libs
+sci-libs/arpack  examples mpi
+net-mail/courier-common  gdbm berkdb
+dev-libs/boost  bzip2 context icu nls stacktrace zlib -debug -doc lzma mpi numpy python tools zstd
+sys-apps/hwloc  X cairo cpuid pci svg udev xml cuda -debug -doc -l0 nvml rocm -static-libs -valgrind
+sys-cluster/openmpi  cxx ipv6 cma cuda fortran libompitrace peruse romio -valgrind
+virtual/mpi  cxx threads fortran nullmpi romio
+sys-libs/ldb  lmdb -doc ldap python
+sys-libs/tdb  python
+sys-libs/tevent  python
+dev-libs/rocksdb  jemalloc numa -static-libs tbb
+dev-cpp/eigen  opengl openmp adolc boost cholmod clang cuda -debug -doc fftw hip klu lapack mathjax pastix -sparsehash spqr superlu  umfpack
+media-sound/fluidsynth  alsa dbus ipv6 pipewire pulseaudio readline sdl sndfile -debug -doc jack ladspa lash network oss portaudio -systemd threads
+media-libs/sdl-image  gif jpeg png tiff -static-libs webp
+net-misc/freerdp  X alsa cups ffmpeg icu jpeg pulseaudio usb wayland xv -client -debug gstreamer -kerberos openh264 -server -smartcard -systemd  -valgrind -verify-sig xinerama
+dev-libs/thrift  ssl libevent -lua
+sys-cluster/ceph  cephfs mgr parquet radosgw sqlite ssl tcmalloc uring -babeltrace -custom-cflags -diskprediction fuse grafana jaeger -jemalloc kafka -kerberos ldap lttng -pmdk -rabbitmq -rbd-rwl -rbd-ssd rdma -rgw-lua spdk -systemd  xfs zbd
+media-gfx/fontforge  X gif gtk jpeg png python readline svg tiff -doc  -truetype-debugger woff2
+kde-apps/kio-extras  X activities handbook man phonon sftp -debug -ios mtp openexr samba taglib
+kde-frameworks/kfilemetadata  epub exif mobi pdf taglib -debug -doc ffmpeg
+sys-auth/sssd  acl man netlink nls sudo -doc nfsv4 python samba subid -systemd systemtap
+x11-libs/libdrm  udev -doc  tools -valgrind
+net-dns/bind  caps gssapi xml -dnsrps dnstap -doc doh -fixed-rrset geoip idn lmdb -static-libs
+net-dns/bind-tools  caps gssapi readline xml -doc idn libedit
+app-admin/eclean-kernel  lz4 lzo  zstd
+dev-vcs/git  blksha1 curl gpg iconv nls pcre perl safe-directory webdav -cgi -cvs -doc highlight keyring mediawiki -perforce -subversion  tk xinetd
+dev-util/quilt  -emacs graphviz
+dev-libs/apr-util  gdbm berkdb -doc ldap -mysql nss -odbc openssl postgres sqlite -static-libs
+media-libs/devil  X gif jpeg mng opengl png sdl tiff -allegro -glut -static-libs xpm
+net-vpn/vpnc  gnutls resolvconf
+sci-physics/bullet  openmp threads -doc double-precision examples extras
+net-vpn/openconnect  gnutls nls -doc gssapi libproxy lz4 pskc -smartcard -stoken  -verify-sig
+dev-python/PyQt5  bluetooth dbus declarative gui multimedia network opengl printsupport ssl svg widgets -debug designer examples -gles2-only -help location positioning -sensors -serialport speech sql lib webchannel websockets x11extras xmlpatterns
+app-i18n/scim  -doc gtk3 -static-libs
+net-dialup/pptpclient  tk
+app-i18n/ibus  X emoji gtk3 gtk4 gui introspection libnotify nls python unicode wayland appindicator -gtk2 -systemd  vala
+dev-util/cppunit  -doc examples
+dev-qt/qtsql  sqlite -debug freetds -mysql -oci8 -odbc postgres
+dev-perl/Tk  examples
+net-vpn/openvpn  lz4 lzo openssl pam plugins -dco -down-root examples inotify iproute2 -mbedtls pkcs11 -systemd
+app-crypt/tpm2-tss  fapi openssl policy -doc -mbedtls -static-libs
+dev-libs/xmlsec  nss openssl -doc gcrypt gnutls -http -static-libs
+dev-qt/qtgui  X accessibility dbus -debug egl eglfs evdev -gles2-only ibus jpeg libinput linuxfb png  tslib tuio udev vnc vulkan wayland
+dev-qt/qtwidgets  X dbus -debug -gles2-only gtk png
+dev-qt/qtpositioning  -debug geoclue nmea qml
+dev-qt/qtspeech  alsa -debug flite qml speechd
+dev-libs/pkcs11-helper  -doc gnutls nss
+dev-db/freetds  iconv ssl -debug gnutls -iodbc kerberos -mssql -odbc -static-libs
+app-misc/geoclue  introspection -gtk-doc modemmanager vala -zeroconf
+net-libs/libsoup  brotli introspection ssl vala gssapi -gtk-doc samba sysprof
+x11-wm/fvwm3  go nls readline svg bidi -debug -lock netpbm -perl stroke tk
+media-libs/netpbm  X jpeg png tiff xml jbig postscript rle -static-libs
+media-libs/urt  X gif tiff postscript -static-libs tools
+x11-wm/icewm  alsa gdk-pixbuf nls truetype ao bidi -debug imlib xinerama
+x11-misc/dmenu  savedconfig xinerama
+dev-lang/ghc  gmp -binary -doc elfutils -ghcbootstrap -ghcmakebinary numa profile -unregisterised
+x11-misc/dzen  xinerama xpm
+dev-haskell/cabal  -doc hscolour profile
+dev-haskell/text  -doc hscolour profile
+dev-haskell/tagged  -doc hscolour profile
+dev-haskell/mtl  -doc hscolour profile
+dev-haskell/parsec  -doc hscolour profile
+dev-haskell/fail  profile
+dev-haskell/base-orphans  -doc hscolour profile
+dev-haskell/primitive  -doc hscolour profile
+dev-haskell/network  -devel -doc hscolour profile
+dev-haskell/data-default-class  -doc hscolour profile
+dev-haskell/indexed-traversable  -doc hscolour profile
+dev-haskell/transformers-compat  -doc hscolour profile
+dev-haskell/stm  -doc hscolour profile
+dev-haskell/th-abstraction  -doc hscolour profile
+dev-haskell/unliftio-core  -doc hscolour profile
+dev-haskell/basement  -doc hscolour profile
+dev-haskell/utf8-string  -doc hscolour profile
+dev-haskell/hourglass  -doc hscolour profile
+dev-haskell/semigroups  -doc hscolour profile
+dev-haskell/blaze-builder  -doc hscolour profile
+dev-haskell/cereal  -doc hscolour profile
+dev-haskell/assoc  tagged -doc hscolour profile
+dev-haskell/foldable1-classes-compat  tagged -doc hscolour profile
+dev-haskell/extensible-exceptions  -doc hscolour profile
+dev-haskell/old-locale  -doc hscolour profile
+dev-haskell/splitmix  -doc hscolour optimised-mixer profile
+dev-haskell/split  -doc hscolour profile
+dev-haskell/xml-types  -doc hscolour profile
+dev-haskell/dlist  -doc hscolour profile -werror
+dev-haskell/regex-base  -doc hscolour profile
+dev-haskell/colour  -doc hscolour profile
+dev-haskell/parsec-numbers  -doc hscolour parsec1 profile
+dev-haskell/data-array-byte  -doc hscolour profile
+dev-haskell/base64-bytestring  -doc hscolour profile
+dev-haskell/mime-types  -doc hscolour profile
+dev-haskell/zlib  -bundled-c-zlib -doc hscolour -non-blocking-ffi profile
+dev-haskell/th-compat  -doc hscolour profile
+dev-haskell/appar  -doc hscolour profile
+dev-haskell/byteorder  -doc hscolour profile
+dev-haskell/integer-logarithms  -doc hscolour profile
+dev-haskell/cabal-doctest  -doc hscolour profile
+dev-haskell/call-stack  -doc hscolour profile
+dev-haskell/parallel  -doc hscolour profile
+dev-haskell/reflection  -doc hscolour profile
+dev-haskell/base-compat  -doc hscolour profile
+dev-haskell/vector  boundschecks -doc hscolour -internalchecks profile -unsafechecks
+dev-haskell/memory  -doc hscolour profile
+dev-haskell/distributive  -doc hscolour profile
+dev-haskell/random  -doc hscolour profile
+dev-haskell/resourcet  -doc hscolour profile
+dev-haskell/x11  xinerama -doc hscolour profile
+dev-haskell/alsa-core  -doc hscolour profile
+dev-haskell/network-uri  -doc hscolour profile
+dev-haskell/blaze-markup  -doc hscolour profile
+dev-haskell/statevar  -doc hscolour profile
+dev-haskell/cookie  -doc hscolour profile
+dev-haskell/iproute  -doc hscolour profile
+dev-haskell/old-time  -doc hscolour profile
+dev-haskell/socks  -doc hscolour profile
+dev-haskell/th-lift  -doc hscolour profile
+dev-haskell/transformers-base  orphaninstances -doc hscolour profile
+dev-haskell/language-c  -doc hscolour profile
+dev-haskell/regex-posix  -doc hscolour profile
+dev-haskell/generically  -doc hscolour profile
+dev-haskell/unordered-containers  -doc hscolour profile
+dev-haskell/comonad  indexed-traversable -doc hscolour profile
+dev-haskell/async  -doc hscolour profile
+dev-haskell/asn1-types  -doc hscolour profile
+dev-haskell/contravariant  semigroups statevar tagged -doc hscolour profile
+dev-haskell/crypton  hscolour integer-gmp profile support-aesni support-deepseq support-pclmuldq support-rdrand target-attributes check-alignment -doc -old-toolchain-inliner support-sse -test
+dev-haskell/pem  -doc hscolour profile
+dev-haskell/these  -doc hscolour profile
+dev-haskell/case-insensitive  -doc hscolour profile
+dev-haskell/onetuple  -doc hscolour profile
+dev-haskell/scientific  -doc hscolour profile
+dev-haskell/regex-compat  -doc hscolour profile
+dev-haskell/x11-xft  -doc hscolour profile
+dev-haskell/bitvec  gmp -doc hscolour profile
+dev-haskell/unix-time  -doc hscolour profile
+dev-haskell/blaze-html  -doc hscolour profile
+dev-haskell/void  hscolour profile -doc -safe
+dev-haskell/hashtables  bounds-checking -debug detailed-profiling -doc hscolour profile
+dev-haskell/data-fix  -doc hscolour profile
+dev-haskell/quickcheck  template-haskell -doc hscolour profile
+dev-haskell/text-short  -debug -doc hscolour profile
+dev-haskell/time-compat  -doc hscolour profile
+dev-haskell/uuid-types  -doc hscolour profile
+dev-haskell/asn1-encoding  -doc hscolour profile
+dev-haskell/http-types  -doc hscolour profile
+dev-haskell/attoparsec  -doc hscolour profile
+dev-haskell/bifunctors  semigroups tagged -doc hscolour profile
+dev-haskell/indexed-traversable-instances  -doc hscolour profile
+dev-haskell/gtk2hs-buildtools  closuresignals -doc hscolour profile
+dev-haskell/streaming-commons  -doc hscolour profile
+dev-haskell/strict  -doc hscolour profile
+dev-haskell/hinotify  -doc hscolour profile
+dev-haskell/alsa-mixer  -doc hscolour profile
+dev-haskell/typed-process  -doc hscolour profile
+dev-haskell/vector-algorithms  bench boundschecks properties -doc hscolour -internalchecks profile -unsafechecks
+dev-haskell/base-compat-batteries  -doc hscolour profile
+dev-haskell/profunctors  -doc hscolour profile
+dev-haskell/semigroupoids  -doc hscolour profile
+dev-haskell/cairo  svg -doc hscolour profile
+dev-haskell/http-client  -doc hscolour profile
+dev-haskell/mono-traversable  -doc hscolour profile
+dev-haskell/asn1-parse  -doc hscolour profile
+dev-haskell/glib  closure-signals -doc hscolour profile
+dev-haskell/witherable  -doc hscolour profile
+dev-haskell/crypton-x509  -doc hscolour profile
+dev-haskell/conduit  -doc hscolour profile
+dev-haskell/free  -doc hscolour profile
+dev-haskell/pango  -doc hscolour profile
+dev-haskell/invariant  -doc hscolour profile
+dev-haskell/semialign  semigroupoids -doc hscolour profile
+dev-haskell/crypton-x509-store  -doc hscolour profile
+dev-haskell/conduit-extra  -doc hscolour profile
+dev-haskell/adjunctions  -doc hscolour profile
+dev-haskell/crypton-x509-validation  -doc hscolour profile
+dev-haskell/crypton-x509-system  -doc hscolour profile
+dev-haskell/xml-conduit  -doc hscolour profile
+dev-haskell/kan-extensions  -doc hscolour profile
+dev-haskell/tls  compat network -doc hscolour profile
+dev-haskell/lens  -doc hscolour profile
+dev-haskell/dbus  -doc hscolour profile
+dev-haskell/crypton-connection  -doc hscolour profile
+dev-haskell/http-client-tls  -doc hscolour profile
+dev-haskell/http-conduit  -doc hscolour profile
+x11-misc/xmobar  alsa dbus -rtsopts weather xrender datezone -doc hscolour -mpd -mpris profile -uvmeter wifi xpm
+dev-haskell/hscolour  -doc profile
+dev-haskell/monad-loops  profile -doc hscolour -test
+dev-haskell/pretty-hex  profile -doc hscolour
+dev-haskell/safe-exceptions  profile -doc hscolour -test
+dev-haskell/parsec1  profile -doc hscolour
+dev-haskell/hashable  hscolour profile -doc random-initial-seed -test
+dev-haskell/timezone-olson  profile -doc hscolour
+dev-haskell/netlink  profile -doc hscolour
+dev-haskell/aeson  hscolour ordered-keymap profile cffi -doc -test
+dev-haskell/timezone-series  profile -doc hscolour
+dev-haskell/libmpd  profile -doc hscolour -test
+dev-haskell/setlocale  -doc hscolour profile
+x11-wm/xmonad  -doc hscolour -no-autorepeat-keys profile -test
+x11-wm/xmonad-contrib  xft -doc hscolour profile -test
+x11-wm/enlightenment  acpi bluetooth exif nls pam udisks wayland connman -doc geolocation -systemd xwayland
+dev-db/mariadb-connector-c  curl ssl gnutls kerberos -static-libs -test
+dev-libs/rasqal  crypt mhash pcre xml gmp -static-libs -test
+dev-libs/redland  berkdb -iodbc -mysql -odbc postgres sqlite
+media-plugins/gst-plugins-meta  X a52 aac alsa cdda dts dvd ffmpeg flac mp3 mpeg ogg pulseaudio vorbis x264 dv dvb -http jack lame libass libvisual modplug opus oss taglib theora v4l vaapi vcd vpx wavpack
+x11-terms/terminology  nls extras
+dev-cpp/libcmis  man -test tools
+dev-libs/libixion  -debug python
+dev-libs/liborcus  spreadsheet-model python -test tools
+sys-apps/i2c-tools  -debug python
+media-libs/libvisual  nls -debug threads
+media-plugins/libvisual-plugins  alsa gtk opengl pulseaudio -debug gstreamer jack mplayer portaudio
+media-video/mjpegtools  gtk png sdl dv -quicktime sdlgfx -static-libs
+app-office/libreoffice  bluetooth branding cups dbus gtk kde mariadb qt5 qt6 vulkan -accessibility base clang coinmp -custom-cflags -debug eds -firebird -googledrive gstreamer java ldap -odk pdfimport postgres -test -valgrind
+net-libs/rest  introspection -gtk-doc -test vala
+dev-libs/libxmlb  lzma zstd -doc introspection stemmer -test
+sci-libs/coinor-utils  bzip2 zlib blas -doc glpk lapack -static-libs -test
+media-libs/raptor  -debug json -static-libs
+app-text/libebook  -doc -test tools
+app-text/libmwaw  -doc tools
+app-text/libqxp  -debug -doc -test tools
+app-text/libstaroffice  zlib -debug -doc tools
+app-text/libwps  -debug -doc tools
+media-libs/libpagemaker  -debug -doc tools
+media-libs/libvisio  -doc -static-libs -test tools
+media-libs/libzmf  -debug -doc -test tools
+sci-mathematics/glpk  -doc examples gmp -mysql -odbc
+dev-libs/appstream  introspection qt6 apt -doc -systemd -test
+dev-perl/XML-LibXML  examples -minimal -test
+sci-libs/coinor-osi  -doc examples -static-libs -test
+sci-libs/coinor-clp  -doc examples glpk -metis mpi mumps -sparse -static-libs -test
+sci-libs/coinor-dylp  -doc examples -static-libs -test
+sci-libs/coinor-vol  -doc examples -static-libs -test
+net-libs/gnome-online-accounts  introspection vala -debug gnome -gtk-doc -kerberos man ms365
+sci-libs/coinor-cgl  -doc examples -static-libs -test
+gnome-extra/evolution-data-server  gnome-online-accounts gtk introspection weather berkdb -gtk-doc -kerberos ldap -oauth-gtk3 -oauth-gtk4 -test vala
+sci-libs/coinor-cbc  -doc examples -static-libs -test
+dev-libs/libdaemon  -doc examples
+sys-libs/cracklib  nls zlib -debug python -static-libs -test
+dev-perl/FFI-CheckLib  examples -test
+dev-perl/Archive-Zip  examples -test
+dev-perl/Capture-Tiny  examples -test
+dev-perl/Alien-Build  examples -minimal -test zip
+dev-libs/libpwquality  pam -debug python -static-libs
+dev-libs/libical  -doc examples glib introspection -static-libs -test vala
+app-text/liblangtag  -debug -doc introspection -test
+x11-misc/colord  introspection argyllcms examples extra-print-profiles -gtk-doc scanner -systemd -test vala
+dev-python/pycups  -debug examples
+x11-libs/colord-gtk  introspection -doc vala
+media-gfx/sane-backends  usb zeroconf gphoto2 snmp -systemd threads v4l xinetd
+net-wireless/gnome-bluetooth  introspection -gtk-doc sendto -test
+app-admin/system-config-printer  keyring
+net-libs/libnma  introspection pkcs11 -gtk-doc vala
+gnome-extra/nm-applet  modemmanager appindicator -teamd
+sci-libs/scotch  mpi threads -doc int64 -static-libs -test tools
+sci-libs/mumps  mpi scotch -doc examples -metis -static-libs
+gnome-base/gnome-settings-daemon  colord cups elogind networkmanager wayland -debug modemmanager -smartcard -systemd
+gnome-base/gnome-control-center  bluetooth cups elogind geolocation gnome-online-accounts ibus networkmanager wayland -debug -kerberos -systemd -test
+net-analyzer/net-snmp  X bzip2 ipv6 pcre ssl zlib -doc elf kmem -lm-sensors mfd-rewrites -minimal -mysql netlink pcap pci perl python rpm smux tcpd -ucd-compat -valgrind
+sys-apps/xinetd  perl rpc tcpd
+net-misc/libteam  dbus syslog -debug examples -static-libs zmq
+net-misc/networkmanager  audit bluetooth concheck connection-sharing -debug -dhclient dhcpcd elogind gnutls -gtk-doc introspection iptables iwd libedit modemmanager -nftables -nss -ofono ovs policykit ppp psl resolvconf -selinux syslog -systemd -teamd -test tools vala wext wifi
+sci-libs/parmetis  openmp pcre examples
+sys-apps/tcp-wrappers  ipv6 netgroups
+app-crypt/rpm-sequoia  openssl -debug -nettle
+dev-perl/File-Which  pwhich -test
+net-dns/dnsmasq  dbus dhcp dumpfile inotify ipv6 loop nls auth-dns conntrack dhcp-tools dnssec id idn libidn2 lua -nettlehash script -static tftp
+dev-libs/libnl  -debug python -test utils
+sys-process/audit  gssapi io-uring ldap python -static-libs -test
+media-libs/libgphoto2  exif jpeg nls -doc examples gd -serial
+sys-power/power-profiles-daemon  bash-completion -gtk-doc man -test zsh-completion
+app-text/qpdf  -doc examples gnutls -test -verify-sig
+net-mail/mailutils  clients gdbm nls pam ssl threads berkdb bidi -emacs guile -kerberos -kyotocabinet ldap -mysql postgres -python sasl -servers -static-libs tcpd -test tokyocabinet
+app-text/mupdf  X javascript opengl ssl archive
+sys-apps/smartmontools  daemon update-drivedb caps -static -systemd
+net-print/cups-browsed  ldap -test -zeroconf
+kde-frameworks/purpose  bluetooth -debug -test webengine
+kde-plasma/kde-cli-tools  X -debug kdesu -test
+kde-plasma/kdeplasma-addons  alternate-calendar handbook -debug -share webengine
+kde-plasma/plasma-nm  -debug openconnect -teamd -test
+dev-debug/gdb  cet nls python server xml -debuginfod guile lzma -multitarget -sim source-highlight -test -vanilla xxhash zstd
+kde-plasma/plasma-desktop  handbook screencast sdl semantic-desktop -debug ibus scim -test webengine
+kde-plasma/powerdevil  handbook brightness-control caps -debug -test
+kde-plasma/plasma-meta  bluetooth browser-integration crash-handler crypt cups display-manager elogind gtk kwallet networkmanager pulseaudio sddm smart wallpapers xwayland -accessibility colord discover -flatpak grub oxygen-theme plymouth rdp -sdk -systemd thunderbolt -unsupported wacom webengine 
+net-misc/gsasl  client nls server gcrypt gnutls idn -kerberos ntlm -static-libs
+dev-db/tokyocabinet  bzip2 zlib -debug -doc examples threads
+dev-qt/qtwebengine  alsa jumbo-build opengl pulseaudio qml screencast system-icu vulkan widgets -accessibility bindist -custom-cflags designer geolocation -kerberos pdfium -test vaapi webdriver
+net-libs/webkit-gtk  X gstreamer introspection jumbo-build lcms pdf spell wayland avif examples gamepad jpegxl keyring -systemd
+net-mail/mailutils  berkdb bidi clients gdbm guile ldap nls pam postgres sasl ssl tcpd threads tokyocabinet emacs -kerberos kyotocabinet -mysql python -servers -static-libs -test
+app-arch/gcab  introspection -gtk-doc -test vala
+dev-db/kyotocabinet  lzma lzo -debug -doc examples -static-libs
+dev-libs/qcoro5  dbus network qml examples -test -testlib websockets
+dev-libs/qtkeychain  qt5 qt6 keyring
+dev-libs/libjcat  ed25519 gpg introspection man pkcs7 -gtk-doc -test vala
+dev-qt/qttools  assistant linguist opengl qdbus qml vulkan widgets clang designer -distancefieldgenerator -gles2-only pixeltool -qdoc qtattributionsscanner qtdiag qtplugininfo
+sys-apps/fwupd  archive bluetooth elogind gusb sqlite -amdgpu amt bash-completion -cbor -fastboot flashrom gnutls -gtk-doc introspection logitech lzma -minimal modemmanager nvme spi synaptics -systemd -test -test-full tpm uefi
+net-misc/freerdp  X alsa cups ffmpeg fuse gstreamer icu jpeg openh264 pulseaudio sdl usb xinerama xv aad -client -debug -kerberos server -smartcard -systemd -test -valgrind -verify-sig
+kde-plasma/krdp  -debug examples -test
+dev-embedded/libftdi  cxx -doc examples python -test tools
+sys-apps/flashrom  atavia buspirate-spi ch341a-spi dediprog developerbox-spi digilent-spi dirtyjtag-spi drkaiser dummy ft2232-spi gfxnvidia internal internal-dmi it8212 linux-mtd linux-spi nic3com nicintel nicintel-eeprom nicintel-spi nicrealtek ogp-spi pickit2-spi pony-spi raiden-debug-spi rayer-spi satamv satasii serprog stlinkv3-spi usbblaster-spi -atahpt -atapromise -jlink-spi -mediatek-i2c-spi -mstarddc-spi -nicnatsemi -parade-lspcon -realtek-mst-i2c-spi -test tools
+sys-apps/fwupd-efi  -secureboot
+dev-lang/ruby  gdbm ipv6 ssl berkdb -debug -doc examples -jit socks5 systemtap tk -valgrind xemacs
+kde-plasma/discover  firmware -debug flatpak -snap telemetry -test webengine
+app-editors/xemacs  X alsa bignum gdbm gif gpm jpeg png tiff xft Xaw3d athena berkdb -debug dnd ldap motif nas neXt pop postgres xface xim
+net-proxy/dante  pam -debug -kerberos -static-libs tcpd -upnp
+dev-debug/systemtap  ssl -debuginfod -dtrace-symlink -libvirt sqlite -test -zeroconf
+dev-util/ostree  curl gpg http2 soup ssl archive -doc -dracut gnutls grub introspection libmount sodium -systemd -zeroconf
+sys-firmware/edk2-bin  -secureboot
+sys-firmware/ipxe  binary ipv6 qemu usb iso lkrn savedconfig uefi -undi -vmware
+dev-perl/XML-XPath  examples -test
+app-crypt/swtpm  seccomp fuse -test
+x11-libs/motif  jpeg motif22-compatibility png unicode xft examples -static-libs
+app-emulation/qemu  aio alsa bzip2 curl fdt filecaps gnutls gtk jpeg ncurses nls opengl oss pam pin-upstream-blobs pipewire png pulseaudio sdl seccomp slirp udev usb vhost-net vnc xattr -accessibility bpf -capstone -debug -doc fuse -glusterfs -infiniband -io-uring iscsi jack -jemalloc keyutils lzo -multipath nfs numa plugins python rbd sasl sdl-image -smartcard -snappy spice ssh -static-user -systemtap -test usbredir vde virgl virtfs vte xdp xen zstd
+app-emulation/libvirt  caps libvirtd nls qemu udev virt-network -apparmor -audit -bash-completion -dtrace -firewalld fuse -glusterfs -iscsi -iscsi-direct -libssh libssh2 -lvm lxc nbd nfs numa parted pcap rbd sasl -test -verify-sig -virtiofsd virtualbox wireshark-plugins xen -zfs
+media-libs/libmediaart -gtk introspection qt5 -gtk-doc -test vala
+dev-libs/folks bluetooth eds -test utils
+x11-wm/mutter  elogind introspection screencast udev wayland -debug gnome -gtk-doc sysprof -systemd -test
+dev-util/sysprof  gtk -unwind -test
+net-libs/liboauth  curl -doc
+media-libs/cogl  gles2 introspection kms opengl pango wayland -debug examples
+dev-libs/totem-pl-parser  crypt introspection uchardet archive -gtk-doc -test
+net-libs/libcloudproviders  introspection -gtk-doc vala
+dev-libs/gom  introspection -gtk-doc python -test
+dev-lang/spidermonkey  jit clang -debug lto -test
+dev-libs/gjs  cairo readline examples sysprof -test
+mail-filter/bogofilter  sqlite berkdb tokyocabinetapp-editors/nano-8.2  USE="ncurses nls spell (unicode) -debug -justify -magic -minimal
+gui-libs/libhandy  introspection vala examples glade -gtk-doc -test
+app-arch/gnome-autoar  gtk introspection -gtk-doc -test vala
+gui-libs/gtksourceview  introspection vala -gtk-doc sysprof -test
+dev-libs/libpeas  gtk python glade -gtk-doc lua -test vala
+games-puzzle/gnome-tetravex  gui cli
+x11-libs/gtksourceview  introspection vala glade -gtk-doc -test
+x11-libs/libwnck  introspection startup-notification -gtk-doc tools
+media-libs/clutter-gtk  X gtk introspection wayland -debug examples
+media-gfx/eog  exif introspection jpeg lcms svg tiff -gtk-doc xmp
+x11-terms/gnome-terminal  -debug gnome-shell nautilus -vanilla
+gnome-base/gvfs  cdda elogind http udev udisks afp archive bluray fuse -gnome-online-accounts google gphoto2 ios keyring mtp nfs samba -systemd -test -zeroconf
+media-libs/grilo  gtk introspection playlist -gtk-doc -test vala
+app-crypt/seahorse  ldap -zeroconf
+app-text/evince  cups introspection spell tiff djvu dvi gnome gstreamer -gtk-doc keyring postscript xps
+media-gfx/shotwell  udev opencv
+media-plugins/grilo-plugins  chromaprint daap flickr freebox -gnome-online-accounts lua -test thetvdb -tracker -upnp-av
+mail-client/evolution  bogofilter spell ssl weather archive geolocation -gtk-doc highlight ldap spamassassin ytnef
+gnome-base/gdm  branding elogind wayland -accessibility audit bluetooth-sound fprint plymouth -systemd tcpd -test
+app-misc/tracker  miners -gtk-doc stemmer -test vala
+app-misc/tracker-miners  exif gif gstreamer iso jpeg networkmanager pdf playlist tiff upower xml cue ffmpeg gsf iptc raw -test xmp xps
+gnome-base/nautilus  cloudproviders gstreamer introspection previewer gnome -gtk-doc sendto -test
+gnome-base/gnome-extra-apps  games shotwell share
+sys-apps/dbus  X elogind -debug -doc -static-libs -systemd -test valgrind
+dev-libs/libdbusmenu  gtk introspection -debug gtk3 -test
+media-libs/mesa  X llvm proprietary-codecs vulkan wayland zstd -d3d9 -debug -lm-sensors -opencl osmesa -test -unwind -vaapi -valgrind -vdpau vulkan-overlay xa
+dev-libs/boehm-gc large threads cxx -static-libs
+sys-apps/file  bzip2 seccomp zlib lzip lzma python -static-libs -verify-sig zstd
+net-misc/rsync  acl iconv ssl xattr examples lz4 rrsync stunnel system-zlib -verify-sig xxhash zstd
+dev-libs/libxslt  crypt -debug examples python -static-libs
+sys-libs/libblockdev  cryptsetup nvme tools device-mapper escrow -gtk-doc introspection lvm -test
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
